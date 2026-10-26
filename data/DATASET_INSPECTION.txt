@@ -1,0 +1,33 @@
+Dataset inspection summary
+==========================
+
+File: data/patient_records.csv
+Rows: 500
+Columns: 7
+
+Columns:
+- Patient_ID
+- Age
+- Biomarker_Level
+- Pre_Existing_Conditions
+- Vaccine_Dose_mcg
+- Prior_Reaction_History
+- Reaction_Score
+
+Missing values:
+Patient_ID                   0
+Age                          0
+Biomarker_Level             20
+Pre_Existing_Conditions      0
+Vaccine_Dose_mcg             0
+Prior_Reaction_History     308
+Reaction_Score               0
+
+Reaction_Score counts:
+Reaction_Score
+0    255
+1    245
+
+Important: this is an educational case-study dataset. The Reaction_Score label
+is not clinically validated, and Vaccine_Dose_mcg values must not be treated as
+real dosing recommendations.
